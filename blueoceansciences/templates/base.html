@@ -1,0 +1,35 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+  <title>Blue Ocean Sciences</title>
+  <meta name="description" content="Scientific Collaboration for Healthy Ocean Solutions" />
+  <meta name="keywords" content="ocean, marine, gyre, ocean garbage patch, marine debris, blue ocean sciences, blue ocean, lone ranger, lone ranger voyage, lone ranger mission, atlantic gyre, pacific gyre" />
+
+  <link href="/assets/styles/main.css" rel="stylesheet" type="text/css" /> 
+  
+</head>
+<body>
+<div class="main">
+    <div class="header">
+        <a href="/"><img src="/assets/i/BOS_logo_350x117.png" /></a>
+        <ul class="navigation">
+            <li class="{% block nav_home %}{% endblock %}"><a href="/">Home</a></li>
+            <li class="{% block nav_about %}{% endblock %}"><a href="/about">About</a></li>
+            <li><a href="http://blueoceansciences.blogspot.com/">Blog</a></li>
+            <li class="{% block nav_projects %}{% endblock %}"><a href="/projects">Projects</a></li>
+            <li class="last {% block nav_media %}{% endblock %}"><a href="/media">Media</a></li> 
+        </ul>
+    </div>
+
+    {% block content %}
+
+    {% endblock %}
+    <div class="footer">
+        <span class="disclaimer">All rights Reserved. No portion of this site may be copied or saved without express written permission of   Blue Ocean Sciences ©Blue Ocean Sciences Copyright 2010</span>
+    </div>
+</div>
+</body>
+
+</html>

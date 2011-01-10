@@ -1,0 +1,26 @@
+.main { width: 940px; margin: 0 auto; display: block; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #494442; }
+.main p { margin: 10px; line-height: 22px; font-size: 13px; }
+.main a { color: #3A50A3; text-decoration: none; }
+ul.navigation { width: 550px; float: left; display:block; margin-top: 30px; margin-left: 0px; padding-left: 30px; }
+
+ul.navigation li { float: left; width: 75px; list-style-type: none; color: #3A50A3; font-weight: bold; font-size: 18px; padding: 10px; text-align:center; }
+ul.navigation li.active { background-color: #3A50A3; }
+ul.navigation li.active a { color: white; }
+/*ul.navigation li.last { width: 120px; padding-left: 10px; }*/
+
+div.header img { float:left; }
+div.content { display: block; float:left; }
+div.columns { margin-top: 25px; }
+div.header-image { padding: 15px 0; display: block; clear: both; }
+div.left { display: block; float: left; width: 560px; }
+div.right { display: block; float:left; width: 310px; background: url(/assets/i/coral_grad.png) repeat-x; color:#BD684E; border: 1px solid #BD684E; margin-top:30px; margin-left: 22px; }
+div.right a { color: #BD684E; font-weight: bold; }
+div.left h3, div.right h3 { font-size: 22px; line-height: 32px; margin: 20px 10px 10px; }
+div.left p a { font-style: italic; }
+
+ul.projects { list-style-type:none; margin-left: 5px; padding-left: 5px; }
+ul.projects li { list-style-type: none; margin-left:2px; padding-left: 2px; margin-top: 8px;}
+
+div.footer { padding-top: 100px; padding-bottom: 50px; clear: both; display: block; }
+span.disclaimer { font-style: italic; font-size: 12px; }
+span.description { font-size: 12px; padding-left: 10px; }
