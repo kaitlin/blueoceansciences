@@ -1,3 +1,4 @@
+img { border: none; }
 .main { width: 940px; margin: 0 auto; display: block; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #494442; }
 .main p { margin: 10px; line-height: 22px; font-size: 13px; }
 .main a { color: #3A50A3; text-decoration: none; }
