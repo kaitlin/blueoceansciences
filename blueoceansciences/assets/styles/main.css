@@ -24,3 +24,17 @@ ul.projects li { list-style-type: none; margin-left:2px; padding-left: 2px; marg
 div.footer { padding-top: 100px; padding-bottom: 50px; clear: both; display: block; }
 span.disclaimer { font-style: italic; font-size: 12px; }
 span.description { font-size: 12px; padding-left: 10px; }
+
+div.text-content { margin: 20px 10px; }
+blockquote {font-style: italic; font-size:20px; margin-bottom: 50px; }
+.ui-tabs .ui-tabs-hide { display: none;}
+#board, #advisors, #partners { width: 100%; margin: 25px 15px; }
+#board img { width: 800px; margin: 10px 50px; }
+#tabs ul { list-style-type: none; width: 680px; margin: 10px auto; display: block; height: 25px; }
+#tabs ul li {list-style-type: none; width: 200px; float: left; text-align:center; padding: 10px; 7px }
+#tabs ul li.ui-state-active { background-color: white; }
+.tab-nav-container {  background: url(/assets/i/blue_grad.png) repeat-x; border-radius: 4px;}
+
+ul#members { width: 80%; list-style-type: disc; font-size: 13px; line-height: 22px; margin: 10px 30px; }
+ul#members li {width: 100%; text-align: left; margin: 7px; }
+span.name { font-weight: bold; font-size: 14px; }
