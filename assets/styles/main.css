@@ -11,10 +11,10 @@ ul.navigation li.active a { color: white; }
 
 div.header img { float:left; }
 div.content { display: block; float:left; }
-div.columns { margin-top: 25px; }
+div.columns {  }
 div.header-image { padding: 15px 0; display: block; clear: both; }
 div.left { display: block; float: left; width: 560px; }
-div.right { display: block; float:left; width: 310px; background: url(/assets/i/coral_grad.png) repeat-x; color:#BD684E; border: 1px solid #BD684E; margin-top:30px; margin-left: 22px; }
+div.right { display: block; float:left; width: 310px; background: url(/assets/i/coral_grad_lt.png) repeat-x; color:#BD684E; border: 1px solid #BD684E; margin-top:30px; margin-left: 22px; }
 div.right a { color: #BD684E; font-weight: bold; }
 div.left h3, div.right h3 { font-size: 22px; line-height: 32px; margin: 20px 10px 10px; }
 div.left p a { font-style: italic; }
@@ -27,15 +27,22 @@ span.disclaimer { font-style: italic; font-size: 12px; }
 span.description { font-size: 12px; padding-left: 10px; }
 
 div.text-content { margin: 20px 10px; }
-blockquote {font-style: italic; font-size:20px; margin-bottom: 50px; }
+blockquote {font-style: italic; font-size:18px; margin-bottom: 15px; }
+p.callout { margin-bottom: 5px; margin-left: 250px; background: url(/assets/i/life-belt-icon.png) no-repeat scroll top left; padding: 25px 0 0 80px; font-family: Georgia,"Times New Roman",Times,serif; color: #766F6B; height: 73px; }
+p.callout a { font-size: 22px; }
 .ui-tabs .ui-tabs-hide { display: none;}
 #board, #advisors, #partners { width: 100%; margin: 25px 15px; }
 #board img { width: 800px; margin: 10px 50px; }
 #tabs ul { list-style-type: none; width: 680px; margin: 10px auto; display: block; height: 25px; }
 #tabs ul li {list-style-type: none; width: 200px; float: left; text-align:center; padding: 10px; 7px }
 #tabs ul li.ui-state-active { background-color: white; }
-.tab-nav-container {  background: url(/assets/i/blue_grad.png) repeat-x; border-radius: 4px;}
+.tab-nav-container {  background: url(/assets/i/blue_grad.png) repeat-x; border-radius: 4px; -moz-border-radius:4px; }
 
 ul#members { width: 80%; list-style-type: disc; font-size: 13px; line-height: 22px; margin: 10px 30px; }
 ul#members li {width: 100%; text-align: left; margin: 7px; }
 span.name { font-weight: bold; font-size: 14px; }
+.right { float: right; }
+#advisors img.right { margin-top: 60px; margin-right: 50px; }
+#advisors ul { width: 400px; display: block; margin: 30px 45px 0 0; padding:  0 0 0 20px;  }
+#advisors ul li { width: 400px; text-align:left; }
+#advisors ul li em { margin-left: 50px; font-size: 13px; }
