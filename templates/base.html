@@ -22,6 +22,9 @@
             <li class="{% block nav_projects %}{% endblock %}"><a href="/projects">Projects</a></li>
             <li class="last {% block nav_media %}{% endblock %}"><a href="/media">Media</a></li> 
         </ul>
+    
+        {% block subnav %}
+        {% endblock %}
     </div>
 
     {% block content %}

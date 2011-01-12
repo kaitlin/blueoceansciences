@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block nav_media %}active{% endblock %}
+
+{% block subnav %}
+
+    <ul class="subnav">
+        <li class="active">Video</li>
+        <li><a href="/media/photos">Photos</a></li>
+
+    </ul>
+
+{% endblock %}
+
+{% block content %}
+<div class="content">
+<h2>Video</h2>
+
+<div class="video-player">
+
+<object width="796" height="463"><param name="movie" value="http://www.youtube.com/cp/vjVQa1PpcFNbobbZf7hBlZ4x8fmLD4fY0rKvKrqPk3g="></param><embed src="http://www.youtube.com/cp/vjVQa1PpcFNbobbZf7hBlZ4x8fmLD4fY0rKvKrqPk3g=" type="application/x-shockwave-flash" width="796" height="463"></embed></object>
+</div>
+</div>
+{% endblock %}

@@ -1,14 +1,18 @@
 img { border: none; }
 .main { width: 940px; margin: 0 auto; display: block; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #494442; }
-.main p { margin: 10px; line-height: 22px; font-size: 13px; }
+.main p { margin: 10px; line-height: 22px; font-size: 14px; }
 .main a { color: #3A50A3; text-decoration: none; }
+h2 {}
 ul.navigation { width: 550px; float: left; display:block; margin-top: 30px; margin-left: 0px; padding-left: 30px; }
 
-ul.navigation li { float: left; width: 75px; list-style-type: none; color: #3A50A3; font-weight: bold; font-size: 18px; padding: 10px; text-align:center; }
+ul.navigation li { float: left; width: 75px; list-style-type: none; color: #3A50A3; font-weight: bold; font-size: 18px; padding: 10px; text-align:center; border-bottom: 2px solid #3A50A3; }
 ul.navigation li.active { background-color: #3A50A3; }
 ul.navigation li.active a { color: white; }
 /*ul.navigation li.last { width: 120px; padding-left: 10px; }*/
-
+ul.subnav { list-style-type: none; margin-right: 70px; }
+ul.subnav li {list-style-type: none; float:right; padding: 5px 18px; font-size: 14px; }
+ul.subnav li.active { font-weight: bold; }
+div.header { float: left; display: block; }
 div.header img { float:left; }
 div.content { display: block; float:left; }
 div.columns {  }
@@ -42,7 +46,13 @@ ul#members { width: 80%; list-style-type: disc; font-size: 13px; line-height: 22
 ul#members li {width: 100%; text-align: left; margin: 7px; }
 span.name { font-weight: bold; font-size: 14px; }
 .right { float: right; }
+.left { float: left;}
+img.project { padding: 15px; }  
+p.right { width: 400px; padding-left: 25px; padding-top: 25px; }
+p.media a { padding: 15px; font-size: 16px; }
 #advisors img.right { margin-top: 60px; margin-right: 50px; }
 #advisors ul { width: 400px; display: block; margin: 30px 45px 0 0; padding:  0 0 0 20px;  }
 #advisors ul li { width: 400px; text-align:left; }
 #advisors ul li em { margin-left: 50px; font-size: 13px; }
+.video-player { margin-top: 30px; }
+ul.goals { font-size:14px; line-height: 22px; }

@@ -4,11 +4,19 @@ from django.conf import settings
 # from django.contrib import admin
 # admin.autodiscover()
 
-urlpatterns = patterns('',
-    url(r'^$', 'views.index', name='index'), 
-    url(r'^about$', 'views.about', name='about'), 
-    url(r'^projects$', 'views.projects', name='projects'), 
-    url(r'^media$', 'views.media', name='media'), 
+urlpatterns = patterns('django.views.generic.simple',
+    url(r'^$', 'direct_to_template', { 'template':'index.html'}), 
+    url(r'^about$', 'direct_to_template', { 'template':'about.html'}), 
+    url(r'^projects$', 'direct_to_template', {'template':'projects.html'}), 
+    url(r'^projects/bosme$', 'direct_to_template', {'template':'projects/bosme.html'}), 
+    url(r'^projects/waves$', 'direct_to_template', {'template':'projects/waves.html'}), 
+    url(r'^projects/bossa$', 'direct_to_template', {'template':'projects/bossa.html'}), 
+    url(r'^projects/seed$', 'direct_to_template', {'template':'projects/seed.html'}), 
+    url(r'^projects/coast$', 'direct_to_template', {'template':'projects/coast.html'}), 
+    url(r'^projects/leafs$', 'direct_to_template', {'template':'projects/leafs.html'}), 
+    url(r'^media$', 'direct_to_template', {'template': 'media.html'}), 
+    url(r'^media/videos$', 'direct_to_template', {'template': 'media/videos.html'}), 
+    url(r'^media/photos$', 'direct_to_template', {'template':'media/photos.html'}), 
     # Example:
     # (r'^blueoceansciences/', include('blueoceansciences.foo.urls')),
 
